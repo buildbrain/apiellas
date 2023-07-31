@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "envios",
+  "info": {
+    "singularName": "envio",
+    "pluralName": "envios",
+    "displayName": "envio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "lugar": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "integer"
+    },
+    "costo": {
+      "type": "integer"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "entregado": {
+      "type": "boolean"
+    },
+    "vendedora": {
+      "type": "string"
+    },
+    "nacional": {
+      "type": "boolean"
+    }
+  }
+}
